@@ -32,3 +32,6 @@ try:
 except:
     print("Invalid address")
     exit(-1)
+    
+SynScan(host)
+DNSScan(host)
