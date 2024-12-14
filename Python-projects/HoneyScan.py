@@ -90,7 +90,7 @@ def analyzePackets():
     
     f = "dst host"+ip+"and tcp"
     sniff(filter=f, prn=analyzePackets)
-        
+    
         
     
     
