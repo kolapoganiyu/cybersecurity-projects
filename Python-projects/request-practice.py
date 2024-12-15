@@ -7,4 +7,6 @@ site = input("Name of the site -")
 response = requests.get(site)
 print(response.content)
 
+# printing
+
 # printing only the status code
