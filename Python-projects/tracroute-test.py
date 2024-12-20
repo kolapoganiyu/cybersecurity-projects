@@ -1,13 +1,11 @@
 from scapy.all import *
 
 # defining target host
-print("work 1")
 
 targetHost = input("TARGET HOST -")
 # setting the maximum hop
 maxHops = 30
 # setting the timeout value
-print("work 2")
 
 timeout = 2
 # setting the starting ttl value
